@@ -75,7 +75,7 @@ const CompanionComponent = ({ companionId, subject, topic, name, userName, userI
         vapi.setMuted(!isMuted);
         setIsMuted(!isMuted)
     }
-
+   
     const handleCall = async () => {
         setCallStatus(CallStatus.CONNECTING)
 
